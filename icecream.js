@@ -1,12 +1,12 @@
 function loadx()
 {
-	var number=getParameterByName('number', "1");
-	var type=getParameterByName('scoop', "Cup");
-	var flavour=getParameterByName('scoop', "Vanilla");
+	var scoop=getParameterByName('scoop', "1");
+	var type=getParameterByName('type', "Cup");
+	var flavour=getParameterByName('flavour', "Vanilla");
 	var price=getParameterByName('price', "6.50");
 	var notes=getParameterByName('notes', "0000")	
 	document.write("<h2>Icecream Entry</h2>");
-	document.write("Number of Scoops:" + number+"<br>");
+	document.write("Number of Scoops:" + scoop+"<br>");
 	document.write("Cup or Cone:" + type+"<br>");
 	document.write("Flavours:" + flavour+"<br>");
 	document.write("Price:" + price+"<br>");
