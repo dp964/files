@@ -1,3 +1,5 @@
+
+
 function writefile(myobject)
 {
 	var idxq=myobject.fileref;
